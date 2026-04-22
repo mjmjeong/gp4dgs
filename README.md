@@ -22,7 +22,8 @@ While existing 4DGS methods focus on deterministic reconstruction, they are inhe
 - **🎯 Uncertainty Quantification** — identifies regions of high motion ambiguity via GP variance maps
 - **🚀 Future Motion Prediction** — forecasts motion beyond training frames using a periodic temporal kernel
 - **🌍Unobserved Region Prior** — propagates motion from well-observed to sparse or occluded primitives
-
+- 
+![Method](asset/method.png)
 
 ## 📢 Updates
 
@@ -30,11 +31,7 @@ While existing 4DGS methods focus on deterministic reconstruction, they are inhe
 - [ ] Release gp module
 - [ ] Release full training (SoM & MoSca)
 
-
-
 ## 🔧 Method
-
-![Method](asset/method.png)
 
 ### 1. Composite Spatio-temporal Kernel
 We sum a **spatial Matérn kernel** — capturing geometric smoothness among nearby primitives — with a **per-axis periodic temporal kernel** for cyclic motion patterns. Matérn is chosen over RBF to handle discontinuities between spatially separate objects, enabling more faithful modeling of real-world dynamics.
