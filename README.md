@@ -21,7 +21,7 @@ While existing 4DGS methods focus on deterministic reconstruction, they are inhe
 
 - **🎯 Uncertainty Quantification** — identifies regions of high motion ambiguity via GP variance maps
 - **🚀 Future Motion Prediction** — forecasts motion beyond training frames using a periodic temporal kernel
-- **🌍Unobserved Region Prior** — propagates motion from well-observed to sparse or occluded primitives
+- **🌍 Unobserved Region Prior** — propagates motion from well-observed to sparse or occluded primitives
   
 ![Method](asset/method.png)
 
