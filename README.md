@@ -1,6 +1,6 @@
 # GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes 
 
-<div align="center">
+<div align="left">
 
 [Mijeong Kim](https://mjmjeong.github.io/)<sup>1</sup>, [Jungtaek Kim](https://jungtaek.github.io/)<sup>2</sup>, [Bohyung Han](https://cv.snu.ac.kr/index.php/bhhan/)<sup>1</sup>
 
